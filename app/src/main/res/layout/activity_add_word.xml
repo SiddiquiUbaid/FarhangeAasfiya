@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddWordActivity"
+    >
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+
+    <EditText
+        android:id="@+id/etAddWord"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#878282"
+        android:textColor="@color/black"
+        android:hint="Enter Word"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="10dp"
+
+
+
+        />
+
+
+    <EditText
+        android:id="@+id/etAddPronounciationUrd"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#878282"
+        android:textColor="@color/black"
+        android:hint="Enter Urdu Pronounciation"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="10dp"
+
+
+
+        />
+
+
+
+    <EditText
+        android:id="@+id/etAddMeaning"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#878282"
+        android:textColor="@color/black"
+        android:hint="Enter Meaning"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="10dp"
+
+
+
+        />
+
+
+    <EditText
+        android:id="@+id/etAddOrigin"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#878282"
+        android:textColor="@color/black"
+        android:hint="Enter Origin"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="10dp"
+
+
+
+        />
+
+    <EditText
+        android:id="@+id/etAddType"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#878282"
+        android:textColor="@color/black"
+        android:hint="Enter Type"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="10dp"
+
+
+
+        />
+
+
+    <EditText
+        android:id="@+id/etAddWazn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#878282"
+        android:textColor="@color/black"
+        android:hint="Enter Wazn"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="10dp"
+
+
+
+        />
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/etAddPronounciationEng"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#878282"
+        android:textColor="@color/black"
+        android:hint="Enter English Pronounciation"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="10dp"
+
+
+
+        />
+
+
+    <EditText
+        android:id="@+id/etAddEnglishMeaning"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#878282"
+        android:textColor="@color/black"
+        android:hint="Enter English Meaning"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="10dp"/>
+
+
+
+
+
+    <EditText
+        android:id="@+id/etAddMuhavra"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#878282"
+        android:textColor="@color/black"
+        android:hint="Enter Muhavra"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="10dp"
+
+
+
+        />
+
+    <EditText
+        android:id="@+id/etAddPlural"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#878282"
+        android:textColor="@color/black"
+        android:hint="Enter Plural"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="10dp"
+
+
+
+        />
+
+
+    <EditText
+        android:id="@+id/etAddSynonym"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#878282"
+        android:textColor="@color/black"
+        android:hint="Enter Synonym"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="10dp"
+
+
+
+        />
+
+    <EditText
+        android:id="@+id/etAddAntonym"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#878282"
+        android:textColor="@color/black"
+        android:hint="Enter Antonym"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="10dp"
+
+
+
+        />
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/etAddComposite"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#878282"
+        android:textColor="@color/black"
+        android:hint="Enter Composite"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="10dp"
+
+
+
+        />
+
+    <EditText
+        android:id="@+id/etAddRhyming"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#878282"
+        android:textColor="@color/black"
+        android:hint="Enter Rhymings"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="10dp"
+
+
+
+        />
+
+
+    <Button
+        android:id="@+id/btnSubmitWord"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#878282"
+        android:textColor="@color/black"
+        android:hint="Enter Word"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="10dp"
+
+
+
+        />
+
+
+
+
+
+
+
+</LinearLayout>
+
+</ScrollView>
